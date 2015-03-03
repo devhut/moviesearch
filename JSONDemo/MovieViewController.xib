@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieViewController">
+            <connections>
+                <outlet property="activityIndicator" destination="EU8-hP-OFd" id="zeh-0I-HR1"/>
+                <outlet property="detailsTextView" destination="tZp-XL-4hg" id="TQj-cU-Mf0"/>
+                <outlet property="navItem" destination="Jsj-pg-RkV" id="BlL-ji-cgw"/>
+                <outlet property="posterImageView" destination="mCc-WR-fxT" id="70D-3Y-gLH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cne-0e-ixH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APa-4T-K9Z">
+                            <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                            <color key="barTintColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                            <items>
+                                <navigationItem id="Jsj-pg-RkV">
+                                    <barButtonItem key="leftBarButtonItem" systemItem="done" id="T8O-ka-X3X">
+                                        <connections>
+                                            <action selector="backTapped:" destination="-1" id="Iei-ul-buq"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </navigationItem>
+                            </items>
+                        </navigationBar>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="APa-4T-K9Z" secondAttribute="bottom" id="7iV-bT-76i"/>
+                        <constraint firstItem="APa-4T-K9Z" firstAttribute="leading" secondItem="Cne-0e-ixH" secondAttribute="leading" id="9Ok-aN-zdD"/>
+                        <constraint firstItem="APa-4T-K9Z" firstAttribute="top" secondItem="Cne-0e-ixH" secondAttribute="top" constant="20" id="Kmx-eA-HDb"/>
+                        <constraint firstAttribute="trailing" secondItem="APa-4T-K9Z" secondAttribute="trailing" id="hys-ck-yq1"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mCc-WR-fxT">
+                    <rect key="frame" x="0.0" y="64" width="320" height="410"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tZp-XL-4hg">
+                    <rect key="frame" x="10" y="470" width="300" height="90"/>
+                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="Tom-Fv-sRe"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="EU8-hP-OFd">
+                    <rect key="frame" x="142" y="262" width="37" height="37"/>
+                    <color key="color" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mCc-WR-fxT" secondAttribute="trailing" id="2Cw-PQ-FCj"/>
+                <constraint firstItem="tZp-XL-4hg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="4nQ-Ma-WZ7"/>
+                <constraint firstItem="EU8-hP-OFd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="262" id="9Zp-fL-ve3"/>
+                <constraint firstItem="Cne-0e-ixH" firstAttribute="trailing" secondItem="mCc-WR-fxT" secondAttribute="trailing" id="B8d-ml-A3p"/>
+                <constraint firstItem="EU8-hP-OFd" firstAttribute="centerX" secondItem="tZp-XL-4hg" secondAttribute="centerX" id="Fvg-9e-GLS"/>
+                <constraint firstItem="tZp-XL-4hg" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottomMargin" id="R8h-PE-dZu"/>
+                <constraint firstItem="mCc-WR-fxT" firstAttribute="top" secondItem="Cne-0e-ixH" secondAttribute="bottom" id="VTd-Jc-XXc"/>
+                <constraint firstItem="mCc-WR-fxT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ari-F3-0c8"/>
+                <constraint firstItem="Cne-0e-ixH" firstAttribute="leading" secondItem="mCc-WR-fxT" secondAttribute="leading" id="blN-xh-mdH"/>
+                <constraint firstItem="EU8-hP-OFd" firstAttribute="centerX" secondItem="Cne-0e-ixH" secondAttribute="centerX" id="dhb-MO-N9e"/>
+                <constraint firstItem="Cne-0e-ixH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="sze-Gk-b2T"/>
+                <constraint firstAttribute="bottom" secondItem="mCc-WR-fxT" secondAttribute="bottom" constant="94" id="xsS-co-4gU"/>
+            </constraints>
+            <point key="canvasLocation" x="-437" y="44"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
