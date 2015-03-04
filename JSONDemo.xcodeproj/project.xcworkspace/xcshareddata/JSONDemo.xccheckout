@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A15E8FB1-3669-4DB8-9C9F-7B995AD77F0D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JSONDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6EA427D1AC9AAD36E7FAA2DDE0EECDF856FB83C3</key>
+		<string>https://github.com/devhut/moviesearch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JSONDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6EA427D1AC9AAD36E7FAA2DDE0EECDF856FB83C3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/devhut/moviesearch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6EA427D1AC9AAD36E7FAA2DDE0EECDF856FB83C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6EA427D1AC9AAD36E7FAA2DDE0EECDF856FB83C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JSONDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -39,7 +39,7 @@
     /* Generally - this probably isn't the best approach to async fetch data.
      In this case, we are just fetching one movie/dictionary, so this will work just fine! 
      Good code to review for those who might just be starting with iOS/Objective-C.
-     Feel free to alter this code to your likeing :) */
+     Feel free to alter this code to your liking :) */
     
     [self.activityIndicator startAnimating];
     
